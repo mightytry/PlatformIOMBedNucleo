@@ -16,7 +16,7 @@ int main()
     while(1)
     {
         myLed = !myLed;
-        Thread:thread_sleep_for(1000);
+        thread_sleep_for(1000);
     }
 }
 #endif
